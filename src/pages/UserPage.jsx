@@ -10,7 +10,7 @@ const UserPage = () => {
         <button onClick={() => navigate(`/`)}>Back to users</button>
         <img src={user.profileImage} alt="" />
         <h1>Hi! My name is {user.name}</h1>
-        <p>I'm {user.age}</p>
+        <p>I&apos;m {user.age}</p>
         <p>My username is {user.username}</p>
         <p>You can contact me in {user.email}</p>
         <p>My adress is:</p>
