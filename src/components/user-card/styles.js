@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 const StyledCard = styled.div`
     display: flex;
-    width: 600px;
+    width: 630px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
     align-items: center;
     border-radius: 10px;
