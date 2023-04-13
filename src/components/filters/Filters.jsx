@@ -2,7 +2,6 @@ import { useState } from "react";
 import UserList from "../users-list/UserList"
 import { StyledDiv, StyledCheckbox } from "./styles"
 import { USERS } from "../../constants/users";
-import { v4 } from "uuid";
 
 const Filters = () => {
     const [active, setActive] = useState(false);
